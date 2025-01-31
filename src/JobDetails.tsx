@@ -108,13 +108,13 @@ const JobDetails: React.FC<JobDetailsProps> = ({
         <div className="flex gap-4">
           <button
             onClick={onAccept}
-            className="px-6 py-3 bg-[#eceaf2] rounded text-[#0a0a0b] hover:bg-[#d8d6e2] transition-colors"
+            className="px-6 py-3 bg-[#eceaf2] rounded-l-full text-[#0a0a0b] hover:bg-[#d8d6e2] transition-colors"
           >
             Accept
           </button>
           <button
             onClick={onReject}
-            className="px-6 py-3 bg-[#eceaf2] rounded text-[#0a0a0b] hover:bg-[#d8d6e2] transition-colors"
+            className="px-6 py-3 bg-[#eceaf2] rounded-r-full text-[#0a0a0b] hover:bg-[#d8d6e2] transition-colors"
           >
             Reject
           </button>
